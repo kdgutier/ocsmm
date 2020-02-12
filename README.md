@@ -6,6 +6,10 @@ Ideas from these papers are explored:
 2. [Large Scale Online Kernel Learning. Journal of Machine Learning Research 2016](http://www.jmlr.org/papers/v17/14-148.html)
 
 <p float="center">
+  <img src="results/plots/mixture_scatter.png" width="400" />
+</p>
+
+<p float="center">
   <img src="results/plots/roc_curves.png" width="240" />
   <img src="results/plots/sample_size_times.png" width="240" /> 
   <img src="results/plots/rolling_window_times.png" width="240" /> 
