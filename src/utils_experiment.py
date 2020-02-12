@@ -152,9 +152,9 @@ def roc_performance_comparison():
   plot_roc_curves(y_test, y_hat_dict, log_scale=False)
 
 if __name__ == '__main__':
-  #mixtures_df = generate_mixtures(100)
-  #plot_mixtures(mixtures_df.loc[mixtures_df['split'] == 'test'])
+  mixtures_df = generate_mixtures(100)
+  plot_mixtures(mixtures_df.loc[mixtures_df['split'] == 'test'])
   roc_performance_comparison()
 
-  #sample_size_time_comparison()
-  #rolling_window_time_comparison(window_size=50)
+  sample_size_time_comparison()
+  rolling_window_time_comparison(window_size=50)

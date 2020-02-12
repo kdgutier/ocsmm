@@ -39,7 +39,7 @@ def plot_residuals_outliers(y, y_hat, outlier, outlier_score, threshold):
   axs[1].set_xlabel('ds')
   axs[1].set_ylabel('Normalized Residuals')
   
-  plt.savefig('../results/plots/residual_outlier.png')
+  plt.savefig('./results/plots/residual_outlier.png')
   plt.tight_layout()
   plt.show()
 
@@ -68,7 +68,7 @@ def plot_mixtures(distributions_df):
       
   plt.tight_layout()
   plt.show()
-  plt.savefig('../results/plots/mixture_scatter.png')
+  plt.savefig('./results/plots/mixture_scatter.png')
 
 def plot_roc_curve(y_test, y_hat):
   plt.figure(figsize=(4, 3.5))
@@ -80,7 +80,7 @@ def plot_roc_curve(y_test, y_hat):
   plt.ylabel('True Positive Rate')
   plt.tight_layout()
   plt.show()
-  plt.savefig('../results/plots/roc_curve.png')
+  plt.savefig('./results/plots/roc_curve.png')
 
 def plot_roc_curves(y_test, y_hat_dict, log_scale=False):
   fig, ax = plt.subplots(1, figsize=(4, 3.5))
@@ -110,7 +110,7 @@ def plot_roc_curves(y_test, y_hat_dict, log_scale=False):
   plt.legend()
   plt.tight_layout()
   plt.show()
-  plt.savefig("../results/plots/roc_curves.png", bbox_inches = "tight", dpi=300)
+  plt.savefig("./results/plots/roc_curves.png", bbox_inches = "tight", dpi=300)
   
 
 def plot_sample_size_times(ns, ocsmm_times, nocsmm_times, onocsmm_times):
@@ -128,7 +128,7 @@ def plot_sample_size_times(ns, ocsmm_times, nocsmm_times, onocsmm_times):
   
   plt.tight_layout()
   plt.show()
-  plt.savefig('../results/plots/sample_size_times.png')
+  plt.savefig('./results/plots/sample_size_times.png')
 
 def plot_rolling_window_times(steps, nocsmm_times, onocsmm_times):
   xs = np.array(steps)
@@ -144,4 +144,4 @@ def plot_rolling_window_times(steps, nocsmm_times, onocsmm_times):
   
   plt.tight_layout()
   plt.show()
-  plt.savefig('../results/plots/rolling_window_times.png')
+  plt.savefig('./results/plots/rolling_window_times.png')
