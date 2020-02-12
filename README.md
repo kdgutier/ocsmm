@@ -1,7 +1,7 @@
 # GEODESIC EXTENSIONS TO DkNN
 
 Repository intended to explore a fast and memory efficient implementation of One Class Support Measure Machines (OCSMM).
-Ideas from these papers are explored.
+Ideas from these papers are explored:
 1. [One-Class Support Measure Machines for Group Anomaly Detection, 2013, Proceedings of the Twenty-Ninth](https://arxiv.org/abs/1408.2064)
 2. [Large Scale Online Kernel Learning. Journal of Machine Learning Research 2016](http://www.jmlr.org/papers/v17/14-148.html)
 
