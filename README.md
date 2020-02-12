@@ -1,4 +1,4 @@
-# FAST, EFFICIENT One Class Support Measure Machines
+# Fat, Efficient One Class Support Measure Machines
 
 Repository intended to explore a fast and memory efficient implementation of One Class Support Measure Machines (OCSMM).
 Ideas from these papers are explored:
